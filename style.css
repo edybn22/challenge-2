@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+  }
+  .nav {
+    max-width: auto;
+    height: 94px;
+    background-color: #3a72b5;
+    display: flex;
+    justify-content: space-between;
+  }
+  h1 {
+    font-weight: normal;
+    color: #fff;
+    padding-top: 30px;
+    margin: 0px;
+    margin-left: 227px;
+  }
+.logo{
+    width: 104px;
+    height: 104px;
+    border-radius: 502px;
+    margin-top: 44px;
+    margin-right: 120px;
+}
+h2{
+    padding-top: 4px;
+    margin-top: 26px;
+    margin-right: 227px;
+
+    width: 100px;
+    height: 42px;
+    
+    background: #fff;
+    border: 3px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 8px;
+    color: #3A72B5;
+    font-weight: normal;
+    font-size: 22px;
+    text-align: center;
+}
+.container{
+    width: 986px;
+    height: 580px;
+    display: relative;
+    margin: 0 auto;
+    margin-top: 96px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #DBDBDB;
+    border-radius: 8px;
+}
+.company--container, .customer--container {
+    width: 297.81px;
+    height: 297.81px;
+
+    border: 2px solid #000000;
+    border-radius: 8px;
+    opacity: 0.9;
+    color: rgb(0, 0, 0);
+    background-size: cover;
+}
+
+.company--container{
+    background-image: url("img/company.jpg");
+    transform: rotate(-10deg);
+    z-index: 1;
+    
+}
+
+.customer--container{
+    background-image: url("img/customers.jpg");
+    transform: rotate(10deg);
+}
+
+h3{
+    text-align: center;
+    font-size: 36px;
+    padding-top: 65%;
+}
